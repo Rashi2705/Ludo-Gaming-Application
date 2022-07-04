@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgludojpg"
+    tools:context=".vsComSelectPlayer">
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="394dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="424dp"
+        android:orientation="horizontal"
+        android:background="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/pl1"
+            android:layout_width="144dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="10dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="19dp"
+            android:layout_weight="1"
+            android:background="@color/white" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="157dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="216dp"
+        android:text="Play"
+        android:background="@drawable/shadowbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

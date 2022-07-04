@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgludojpg"
+    tools:context=".threePlayers">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="408dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="525dp"
+        android:background="#2196F3"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/pl1name"
+            android:layout_width="144dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="10dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="19dp"
+            android:layout_weight="1"
+            android:background="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="408dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="395dp"
+        android:orientation="horizontal"
+        android:background="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <EditText
+            android:id="@+id/pl2name"
+            android:layout_width="144dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+android:layout_marginTop="19dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="10dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="19dp"
+            android:layout_weight="1"
+            android:background="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="400dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="253dp"
+        android:background="#2196F3"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        app:layout_constraintVertical_bias="1.0">
+
+        <EditText
+            android:id="@+id/pl3name"
+            android:layout_width="144dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="10dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="19dp"
+            android:layout_weight="1"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnoption3"
+        android:layout_width="153dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="88dp"
+        android:text="Continue"
+        android:background="@drawable/shadowbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

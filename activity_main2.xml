@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="169dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="187dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/i1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+
+                <ImageView
+                    android:id="@+id/i2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+
+                <ImageView
+                    android:id="@+id/i3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+
+                <ImageView
+                    android:id="@+id/i4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+
+                <ImageView
+                    android:id="@+id/i5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+
+                <ImageView
+                    android:id="@+id/i6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+
+                <ImageView
+                    android:id="@+id/i7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/i8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/i9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/i10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+                <ImageView
+                    android:id="@+id/i11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+                <ImageView
+                    android:id="@+id/i12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+                <ImageView
+                    android:id="@+id/i13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+                <ImageView
+                    android:id="@+id/i14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+                <ImageView
+                    android:id="@+id/i15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ia1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ia2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ia3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ia4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ia5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ia6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ia7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ia8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ia9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ia10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ia11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/ia12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ia13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ia14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ia15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ib1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ib2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ib3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ib4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ib5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ib6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ib7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ib8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ib9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ib10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ib11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/ib12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ib13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ib14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ib15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ic1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ic2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ic3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ic4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ic5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ic6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ic7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ic8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ic9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ic10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ic11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/ic12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ic13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ic14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ic15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/id1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/id2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/id3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/id4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/id5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/id6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/id7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/id8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/id9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/id10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/id11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/id12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/id13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/id14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/id15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ie1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ie2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ie3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ie4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ie5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ie6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ie7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ie8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ie9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ie10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+                <ImageView
+                    android:id="@+id/ie11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+                <ImageView
+                    android:id="@+id/ie12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ie13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ie14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+                <ImageView
+                    android:id="@+id/ie15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/greenbg" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/if1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/if3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/if12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/if15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ig1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ig2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ig3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ig4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ig5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ig6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+                <ImageView
+                    android:id="@+id/ig7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ig8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ig9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ig10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ig11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+
+                <ImageView
+                    android:id="@+id/ig12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ig13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ig14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ig15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ih1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/ih12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ih14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ih15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ij1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ij2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ij3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ij4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ij5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ij6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ij7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ij8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ij9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ij10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ij11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+
+                <ImageView
+                    android:id="@+id/ij12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ij13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ij14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ij15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ik1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ik2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ik3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ik4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ik5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ik6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ik7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ik8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/ik9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ik10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/ik11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/ik12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ik13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ik14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/ik15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/il1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/il2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/il3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/il4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/il5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/il6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/il7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/il8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/il9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/il10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/il11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/il12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/il13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/il14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/il15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/im1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/im2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/im3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/im4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/im5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/im6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/im7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/im8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/im9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/im10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/im11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/im12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/im13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/im14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/im15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/in1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/in2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/in3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/in4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/in5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/in6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/in7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/in8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/in9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/in10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/in11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+
+                <ImageView
+                    android:id="@+id/in12"
+                    android:layout_width="24.9dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/in13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/in14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/in15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/io1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/io2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/io3"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/io4"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/io5"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/io6"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+                <ImageView
+                    android:id="@+id/io7"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/io8"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/io9"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/whitebg" />
+                <ImageView
+                    android:id="@+id/io10"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/io11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/io12"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/io13"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/io14"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+                <ImageView
+                    android:id="@+id/io15"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/redbg" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".framed">
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="375dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="178dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/frm1"
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/i1"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/yellowbg" />
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/i2"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bluebg" />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/b1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/tokenblue"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="18dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
